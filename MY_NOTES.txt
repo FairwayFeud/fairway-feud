@@ -1,0 +1,39 @@
+START BACKEND
+
+Do this right now:
+
+Go to the terminal window where the backend is running (node server.js)
+Press Ctrl + C to stop it.
+Run it again:
+
+Bashnode server.js
+You should see the ✅ Backend running on http://localhost:3001 message again.
+
+Then go back to the browser and hard refresh (Ctrl + Shift + R)
+Click "📡 Load Current PGA Field" again.
+
+How to restart the backend:
+
+Open a new terminal window (or the one you used for the backend).
+Navigate to your project folder if needed:
+
+Bashcd vibegolf
+
+Start the backend again:
+
+Bashnode server.js
+(or node server.cjs if you renamed it) !!!
+You should see this message:
+text✅ Backend running on http://localhost:3001
+Leave that terminal window open (don't close it).
+
+Once you see that message, go back to your browser, hard refresh (Ctrl + Shift + R), and try the "📡 Load Current PGA Field" button again.
+Let me know what happens!
+(If you get any error in the terminal when running node server.js, paste it here.)
+
+Quick Summary for both terminals:
+
+Backend terminal → node server.cjs
+Frontend terminal → npm run dev
+
+Keep both terminals open at the same time.
