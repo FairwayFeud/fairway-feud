@@ -57,7 +57,7 @@ function App() {
   const loadCurrentField = async () => {
     setLoadingField(true);
     try {
-      const res = await fetch('http://localhost:3001/api/field');
+      const res = await fetch('https://fairway-feud.onrender.com/api/field');
       const data = await res.json();
       if (data.players && data.players.length > 0) {
         setPlayers(data.players);
